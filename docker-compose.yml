@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  comicsapp:
+    image: comicsapp
+    build:
+      context: .
+      dockerfile: ComicsApp\Dockerfile
